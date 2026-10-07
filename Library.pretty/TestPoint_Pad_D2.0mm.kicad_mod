@@ -1,0 +1,96 @@
+(footprint "TestPoint_Pad_D2.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD pad as test Point, diameter 2.0mm")
+	(tags "test point SMD pad")
+	(property "Reference" "REF**"
+		(at 0 -1.998 0)
+		(layer "F.SilkS")
+		(uuid "23085a67-0b49-47cc-a9ef-d461a2652cfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RD1"
+		(at 0 2.05 0)
+		(layer "F.Fab")
+		(uuid "4de2b7fc-d1ca-4736-aa9b-240c8ebf2db9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05022fcb-2ce1-4c7e-8f5a-25e228d23cf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7146b66-5e28-4fdc-bd89-9668bb382dc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "Pin* Test*")
+	(sheetname "/")
+	(sheetfile "iidxcontroller_board.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "36531690-dfc4-4283-ba3c-c519695a8ce7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "46af913a-62f0-431b-990b-bc477d3b9d8b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "fa7ba5f1-a2b2-441f-a172-37ca168c26c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d5be3548-36b9-43aa-ad13-dd309c5d7afb")
+	)
+	(embedded_fonts no)
+)
