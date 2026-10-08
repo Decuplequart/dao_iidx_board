@@ -2634,6 +2634,10 @@
 		(uuid "5402dbce-150a-4445-be82-c3ea2b0711e0")
 	)
 	(no_connect
+		(at 36.83 134.62)
+		(uuid "7a066369-9e07-4078-a698-57c272b2de8f")
+	)
+	(no_connect
 		(at 69.85 64.77)
 		(uuid "92aef62e-fad9-487b-92af-00f3928074ee")
 	)
@@ -2942,16 +2946,6 @@
 			(type default)
 		)
 		(uuid "39666b27-adec-4314-9fd3-2c068e14d454")
-	)
-	(wire
-		(pts
-			(xy 36.83 134.62) (xy 36.83 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b8c478a-316d-49e1-b5dd-4c3cfe44913e")
 	)
 	(wire
 		(pts
@@ -4312,16 +4306,6 @@
 			(justify left bottom)
 		)
 		(uuid "874f45c5-02ad-4e73-8179-504f2b8240c3")
-	)
-	(label "BAT_SW"
-		(at 36.83 146.05 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9490419e-3a46-4af1-abd4-9961105f2d0e")
 	)
 	(label "DISH_LED_5V"
 		(at 57.15 193.04 90)
