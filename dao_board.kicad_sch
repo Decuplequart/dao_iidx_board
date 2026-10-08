@@ -2665,6 +2665,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 148.59) (xy 86.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d69c0b-7d70-4529-8a98-2974e4986259")
+	)
+	(wire
+		(pts
 			(xy 204.47 31.75) (xy 204.47 40.64)
 		)
 		(stroke
@@ -3015,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 148.59) (xy 59.69 148.59)
+			(xy 81.28 149.86) (xy 59.69 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3142,6 +3152,16 @@
 			(type default)
 		)
 		(uuid "60008cec-7826-41b3-b02d-162ba24a5937")
+	)
+	(wire
+		(pts
+			(xy 81.28 149.86) (xy 81.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619d3974-f0c9-49df-87c2-baf966905909")
 	)
 	(wire
 		(pts
@@ -3295,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 148.59) (xy 59.69 143.51)
+			(xy 59.69 149.86) (xy 59.69 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4473,7 +4493,7 @@
 		)
 		(uuid "d49aaec9-4886-4867-88d3-2899fe7f3c9e")
 	)
-	(label "KEY_LED_JV"
+	(label "KEY_LED_5V"
 		(at 107.95 148.59 180)
 		(effects
 			(font
@@ -4614,7 +4634,7 @@
 			(uuid "b598ac78-2ecd-424e-ad2e-51f4f1b75d39")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR019")
 					(unit 1)
@@ -4700,7 +4720,7 @@
 			(uuid "d8614da5-3416-48e1-9aeb-c0fe60137f9e")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J8")
 					(unit 1)
@@ -4804,7 +4824,7 @@
 			(uuid "55bafcd9-5160-4862-977d-e8faf44d5f00")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "C2")
 					(unit 1)
@@ -4885,7 +4905,7 @@
 			(uuid "3757d1d5-cd2b-4316-ac1a-360f38704381")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "D3")
 					(unit 1)
@@ -4961,7 +4981,7 @@
 			)
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "H1")
 					(unit 1)
@@ -5041,7 +5061,7 @@
 			(uuid "3757d1d5-cd2b-4316-ac1a-360f38704382")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "D4")
 					(unit 1)
@@ -5127,7 +5147,7 @@
 			(uuid "033d1f02-e173-48a2-afd7-e7d1e13e764d")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "SW1")
 					(unit 1)
@@ -5213,7 +5233,7 @@
 			(uuid "e2eb071b-7825-4fad-85e1-fd69acd37ab9")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J2")
 					(unit 1)
@@ -5294,7 +5314,7 @@
 			(uuid "3af86ae2-8e84-4e26-b92e-34f09c1ae583")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "R4")
 					(unit 1)
@@ -5380,7 +5400,7 @@
 			(uuid "3e8e5b94-ebaf-4d9d-9651-49bb111a4150")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J9")
 					(unit 1)
@@ -5459,7 +5479,7 @@
 			(uuid "ac534abf-a08e-44de-a481-11e000a6f483")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR03")
 					(unit 1)
@@ -5622,7 +5642,7 @@
 			(uuid "4b775f9a-39b9-45a6-ba16-d719dd78eb45")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "U1")
 					(unit 1)
@@ -5698,7 +5718,7 @@
 			)
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "H3")
 					(unit 1)
@@ -5776,7 +5796,7 @@
 			(uuid "7aa292a3-12d3-4f6d-83f9-581a1e8cb1d2")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR08")
 					(unit 1)
@@ -5854,7 +5874,7 @@
 			(uuid "af17a01a-6aa0-41ea-849d-7d6cf6c4e0f7")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR010")
 					(unit 1)
@@ -5932,7 +5952,7 @@
 			(uuid "154c4877-b161-4fcb-a263-8e0a01ba1c8b")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#FLG01")
 					(unit 1)
@@ -6012,7 +6032,7 @@
 			(uuid "e4b6181d-ab4e-44e1-b4c7-8bad0a537f45")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "D2")
 					(unit 1)
@@ -6094,7 +6114,7 @@
 			(uuid "d8661c88-f49a-4830-9ab1-1e64d8b41fc4")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "R1")
 					(unit 1)
@@ -6170,7 +6190,7 @@
 			)
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "H2")
 					(unit 1)
@@ -6250,7 +6270,7 @@
 			(uuid "7f47b7af-4191-4f8f-adbd-2ac934071432")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "SW2")
 					(unit 1)
@@ -6327,7 +6347,7 @@
 			(uuid "cb50a098-9dd1-4ef3-8c3d-777e044ac44e")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "TP5")
 					(unit 1)
@@ -6405,7 +6425,7 @@
 			(uuid "154c4877-b161-4fcb-a263-8e0a01ba1c8c")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#FLG02")
 					(unit 1)
@@ -6483,7 +6503,7 @@
 			(uuid "a6ecae79-2e55-49ed-ad5e-3a63963446ad")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR01")
 					(unit 1)
@@ -6569,7 +6589,7 @@
 			(uuid "3d8c36b0-e4fa-49d6-8c00-703247566ba3")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J7")
 					(unit 1)
@@ -6652,7 +6672,7 @@
 			(uuid "c4df59e6-131b-4464-a5c9-92f56812ab62")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J12")
 					(unit 1)
@@ -6730,7 +6750,7 @@
 			(uuid "b598ac78-2ecd-424e-ad2e-51f4f1b75d3a")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR012")
 					(unit 1)
@@ -6807,7 +6827,7 @@
 			(uuid "9ba71a94-4393-45d1-8652-c9e34a96f04b")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "TP4")
 					(unit 1)
@@ -6886,7 +6906,7 @@
 			(uuid "cb7c936d-0465-4a0a-a194-3480e25f6fe5")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR011")
 					(unit 1)
@@ -6972,7 +6992,7 @@
 			(uuid "9e1dc37f-9caf-4249-8585-4f130523cf4a")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J1")
 					(unit 1)
@@ -7049,7 +7069,7 @@
 			(uuid "2ee5510f-201a-41f3-922e-3d6d114ff1db")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "TP2")
 					(unit 1)
@@ -7128,7 +7148,7 @@
 			(uuid "22e980d8-bbb3-4d1b-ae1c-74d240fbe818")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR06")
 					(unit 1)
@@ -7207,7 +7227,7 @@
 			(uuid "22e980d8-bbb3-4d1b-ae1c-74d240fbe819")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR05")
 					(unit 1)
@@ -7293,7 +7313,7 @@
 			(uuid "ed1d767c-c2d3-4904-a67b-70341a2905a0")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J3")
 					(unit 1)
@@ -7379,7 +7399,7 @@
 			(uuid "ae70daaf-894f-4da5-9cb7-a0684e855039")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J5")
 					(unit 1)
@@ -7465,7 +7485,7 @@
 			(uuid "72bf09cc-6c5c-4267-a6f6-b2edc112f9fd")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J6")
 					(unit 1)
@@ -7545,7 +7565,7 @@
 			(uuid "fdfb4e6b-5b48-479c-9900-e69456dee303")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "R3")
 					(unit 1)
@@ -7624,7 +7644,7 @@
 			(uuid "ac534abf-a08e-44de-a481-11e000a6f484")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR02")
 					(unit 1)
@@ -7701,7 +7721,7 @@
 			(uuid "8fcdf861-4d81-464a-b86a-b91c506bfe9c")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "TP6")
 					(unit 1)
@@ -7804,7 +7824,7 @@
 			(uuid "55bafcd9-5160-4862-977d-e8faf44d5f01")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "C1")
 					(unit 1)
@@ -7882,7 +7902,7 @@
 			(uuid "b598ac78-2ecd-424e-ad2e-51f4f1b75d3b")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR018")
 					(unit 1)
@@ -7964,7 +7984,7 @@
 			(uuid "f2aa61de-2fb6-4ea3-a5bf-713ac068a597")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J13")
 					(unit 1)
@@ -8045,7 +8065,7 @@
 			(uuid "e4b6181d-ab4e-44e1-b4c7-8bad0a537f46")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "D1")
 					(unit 1)
@@ -8131,7 +8151,7 @@
 			(uuid "3cd766cc-2a7d-4989-b94a-1e0ed38b37ac")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J4")
 					(unit 1)
@@ -8211,7 +8231,7 @@
 			(uuid "9d68073e-e3ea-4ec0-82f1-0664ff6bc997")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "R5")
 					(unit 1)
@@ -8297,7 +8317,7 @@
 			(uuid "6a71aa6e-aa98-4d9a-bb30-6bab793aea99")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J11")
 					(unit 1)
@@ -8383,7 +8403,7 @@
 			(uuid "f707e8b1-46e1-4f5e-bc57-46226689de93")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "J10")
 					(unit 1)
@@ -8461,7 +8481,7 @@
 			(uuid "5572298e-85c6-4a84-8313-87e202feb125")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR04")
 					(unit 1)
@@ -8539,7 +8559,7 @@
 			(uuid "28d5720f-3c8f-4332-a064-c3e3eb018696")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR07")
 					(unit 1)
@@ -8618,7 +8638,7 @@
 			(uuid "b598ac78-2ecd-424e-ad2e-51f4f1b75d3c")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR016")
 					(unit 1)
@@ -8694,7 +8714,7 @@
 			)
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "H4")
 					(unit 1)
@@ -8776,7 +8796,7 @@
 			(uuid "d8661c88-f49a-4830-9ab1-1e64d8b41fc5")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "R2")
 					(unit 1)
@@ -8853,7 +8873,7 @@
 			(uuid "9ba71a94-4393-45d1-8652-c9e34a96f04c")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "TP3")
 					(unit 1)
@@ -8931,7 +8951,7 @@
 			(uuid "b598ac78-2ecd-424e-ad2e-51f4f1b75d3d")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR017")
 					(unit 1)
@@ -9009,7 +9029,7 @@
 			(uuid "b598ac78-2ecd-424e-ad2e-51f4f1b75d3e")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR020")
 					(unit 1)
@@ -9086,7 +9106,7 @@
 			(uuid "2ee5510f-201a-41f3-922e-3d6d114ff1dc")
 		)
 		(instances
-			(project "iidxcontroller_board"
+			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "TP1")
 					(unit 1)

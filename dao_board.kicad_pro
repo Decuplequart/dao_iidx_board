@@ -701,13 +701,13 @@
         "uuid": "88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
       }
     ],
-    "used_designators": "U1-4,D1-5,#PWR1-25,#FLG1-3,R1-6,J1-14,SW1-4,C1-4,TP1-6,H1-5,Q1-10",
+    "used_designators": "U1-4,Q1-10,D1-5,C1-4,#PWR1-25,#FLG1-3,R1-6,TP1-6,J1-14,SW1-4,H1-5",
     "variants": []
   },
   "sheets": [
     [
       "88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de",
-      "ルート"
+      "dao_board"
     ]
   ],
   "text_variables": {},
