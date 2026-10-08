@@ -4,6 +4,9 @@
 .history/
 *.lck
 ~*.lck
+*.bak
+*.bck
+~*.*
 
 * Cache
 fp-info-cache
