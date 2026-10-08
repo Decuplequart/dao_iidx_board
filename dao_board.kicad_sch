@@ -8167,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Value" "5V_BOOST"
+		(property "Value" "MINIBOOST_4654"
 			(at 33.02 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8177,7 +8177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 31.75 129.54 0)
 			(hide yes)
 			(show_name no)
