@@ -2634,16 +2634,16 @@
 		(uuid "5402dbce-150a-4445-be82-c3ea2b0711e0")
 	)
 	(no_connect
-		(at 36.83 134.62)
-		(uuid "7a066369-9e07-4078-a698-57c272b2de8f")
-	)
-	(no_connect
 		(at 69.85 64.77)
 		(uuid "92aef62e-fad9-487b-92af-00f3928074ee")
 	)
 	(no_connect
 		(at 54.61 30.48)
 		(uuid "9654788b-10b3-4c66-9161-b7b2892685a9")
+	)
+	(no_connect
+		(at 29.21 134.62)
+		(uuid "c94ef565-330a-487a-a425-21780ba234b2")
 	)
 	(no_connect
 		(at 69.85 59.69)
@@ -2816,6 +2816,16 @@
 			(type default)
 		)
 		(uuid "223fde6d-9f21-41d7-8251-f8f4c8f0ebac")
+	)
+	(wire
+		(pts
+			(xy 31.75 134.62) (xy 31.75 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224828e2-c565-49dd-97e2-bad3af03fd96")
 	)
 	(wire
 		(pts
@@ -3119,16 +3129,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 134.62) (xy 34.29 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dfac8d3-a70d-4973-98bb-0c110e91762b")
-	)
-	(wire
-		(pts
 			(xy 190.5 31.75) (xy 190.5 40.64)
 		)
 		(stroke
@@ -3269,13 +3269,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 134.62) (xy 31.75 146.05)
+			(xy 36.83 134.62) (xy 36.83 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "748a4e7c-985e-4be6-a21d-6c8b95ac945a")
+		(uuid "740048cf-7b24-4669-991d-66944e41de1a")
 	)
 	(wire
 		(pts
@@ -3569,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 134.62) (xy 34.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b95d93-dfa7-46e6-8628-5becab7df043")
+	)
+	(wire
+		(pts
 			(xy 95.25 152.4) (xy 93.98 152.4)
 		)
 		(stroke
@@ -3716,16 +3726,6 @@
 			(type default)
 		)
 		(uuid "c02d6abb-da40-488d-9dd2-1db9b6dd9522")
-	)
-	(wire
-		(pts
-			(xy 29.21 134.62) (xy 29.21 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0597583-fdf6-4ba9-8ae5-1c2ca401d9d6")
 	)
 	(wire
 		(pts
@@ -4007,6 +4007,16 @@
 		)
 		(uuid "ffcde4c5-fe8f-4c7b-84e0-8cf7b196d52d")
 	)
+	(label "BOOST_5V"
+		(at 31.75 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02f82075-b23b-4403-ae1e-de1f9e578593")
+	)
 	(label "K6"
 		(at 25.4 55.88 0)
 		(effects
@@ -4056,16 +4066,6 @@
 			(justify left bottom)
 		)
 		(uuid "14ca6cc6-f886-4ed6-bd96-f36de59443aa")
-	)
-	(label "BOOST_5V"
-		(at 34.29 146.05 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b0c55f2-4b73-4a35-a821-b5b031ffe1b6")
 	)
 	(label "LED_K3"
 		(at 134.62 40.64 90)
@@ -4166,6 +4166,16 @@
 			(justify left bottom)
 		)
 		(uuid "4972cc4a-2999-43b4-8550-9c546e6cbeb3")
+	)
+	(label "BAT_SW"
+		(at 36.83 146.05 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd8c667-5dd6-4279-839d-c72e1dc4648f")
 	)
 	(label "LED_LATCH"
 		(at 83.82 72.39 180)
@@ -4286,16 +4296,6 @@
 			(justify right bottom)
 		)
 		(uuid "80e54f3e-0a33-4768-911f-65dab9b70da3")
-	)
-	(label "BAT_SW"
-		(at 29.21 146.05 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84bf896a-7d6c-46ef-871b-951cb584c3bc")
 	)
 	(label "LED_K9"
 		(at 218.44 40.64 90)
@@ -5783,84 +5783,6 @@
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a27964b-6891-4995-a62d-eac65b648c38")
-		(property "Reference" "#PWR010"
-			(at 31.75 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af17a01a-6aa0-41ea-849d-7d6cf6c4e0f7")
-		)
-		(instances
-			(project "dao_board"
-				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9016,6 +8938,84 @@
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2e6d492-7f0d-410f-b965-c0e66633bc7b")
+		(property "Reference" "#PWR010"
+			(at 34.29 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4354b12a-0342-4f4f-beed-4752546bbafc")
+		)
+		(instances
+			(project "dao_board"
+				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
