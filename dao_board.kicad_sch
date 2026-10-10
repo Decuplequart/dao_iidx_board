@@ -4767,16 +4767,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 119.38) (xy 232.41 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1241a53e-5eb7-4135-b747-96bd5e9f6795")
-	)
-	(wire
-		(pts
 			(xy 151.13 119.38) (xy 160.02 119.38)
 		)
 		(stroke
@@ -5097,6 +5087,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 114.3) (xy 232.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36719b0a-5283-441c-b78c-5d0f72e8e4ec")
+	)
+	(wire
+		(pts
 			(xy 139.7 31.75) (xy 139.7 44.45)
 		)
 		(stroke
@@ -5214,16 +5214,6 @@
 			(type default)
 		)
 		(uuid "447f9f55-08aa-462e-8f59-1fe91f8ec9e8")
-	)
-	(wire
-		(pts
-			(xy 220.98 114.3) (xy 232.41 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46d765fe-e8bf-4a1c-b89d-ef208708ce35")
 	)
 	(wire
 		(pts
@@ -5424,6 +5414,16 @@
 			(type default)
 		)
 		(uuid "6d06b854-6f24-4c29-9bc8-5e7a8961d869")
+	)
+	(wire
+		(pts
+			(xy 220.98 119.38) (xy 232.41 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d61d2c5-9125-4ffa-9063-03e1664f99d7")
 	)
 	(wire
 		(pts
@@ -5667,16 +5667,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 232.41 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82efb217-db66-4773-bdac-299cb703108a")
-	)
-	(wire
-		(pts
 			(xy 160.02 99.06) (xy 160.02 109.22)
 		)
 		(stroke
@@ -5694,16 +5684,6 @@
 			(type default)
 		)
 		(uuid "860b64ea-db44-4e8b-8979-1ecc4a73736c")
-	)
-	(wire
-		(pts
-			(xy 220.98 121.92) (xy 232.41 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8616ed1e-8517-4883-831f-0b7c69837601")
 	)
 	(wire
 		(pts
@@ -6117,6 +6097,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 116.84) (xy 232.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cc7655-025a-4749-a8de-c3359639b626")
+	)
+	(wire
+		(pts
 			(xy 176.53 31.75) (xy 176.53 40.64)
 		)
 		(stroke
@@ -6447,6 +6437,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 121.92) (xy 232.41 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f009a1ba-46fb-4c28-b578-3313306a6b4f")
+	)
+	(wire
+		(pts
 			(xy 137.16 134.62) (xy 148.59 134.62)
 		)
 		(stroke
@@ -6535,6 +6535,16 @@
 		)
 		(uuid "ffcde4c5-fe8f-4c7b-84e0-8cf7b196d52d")
 	)
+	(label "LED_K7"
+		(at 232.41 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "088bdab6-ed3a-433b-befd-4f89f4f8e1a8")
+	)
 	(label "SCR_5V"
 		(at 238.76 48.26 90)
 		(effects
@@ -6595,6 +6605,16 @@
 		)
 		(uuid "2248dac5-db49-4c75-8bee-9202d005d6a6")
 	)
+	(label "LED_K8"
+		(at 232.41 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25fa20b8-69bb-44a2-a0ac-42068ed95361")
+	)
 	(label "SELECT"
 		(at 215.9 40.64 90)
 		(effects
@@ -6644,6 +6664,16 @@
 			(justify left bottom)
 		)
 		(uuid "336c9fbd-c2d2-4a65-b34a-cf0f692ee5d6")
+	)
+	(label "LED_K5"
+		(at 232.41 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3526167d-4618-451f-a7a8-e71da677f8f2")
 	)
 	(label "VBUS_5V"
 		(at 179.07 124.46 0)
@@ -6714,6 +6744,16 @@
 			(justify left bottom)
 		)
 		(uuid "4593e238-e711-49e4-b49b-ea504b7d0a81")
+	)
+	(label "LED_K6"
+		(at 232.41 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ab1480e-310e-4ca5-a3e0-8148b30bebea")
 	)
 	(label "EXP5"
 		(at 77.47 173.99 180)
@@ -6935,16 +6975,6 @@
 		)
 		(uuid "874f45c5-02ad-4e73-8179-504f2b8240c3")
 	)
-	(label "LED_K6"
-		(at 232.41 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "88cd3f2c-1837-4209-8c18-dc5586d6ad9c")
-	)
 	(label "EXP0"
 		(at 148.59 124.46 180)
 		(effects
@@ -7085,16 +7115,6 @@
 		)
 		(uuid "a4608d7b-eee3-40c1-8ffa-bff10f008836")
 	)
-	(label "LED_K8"
-		(at 232.41 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9e65bc4-526c-4978-95ff-8902a742a2fd")
-	)
 	(label "LED_K2"
 		(at 179.07 116.84 0)
 		(effects
@@ -7225,16 +7245,6 @@
 		)
 		(uuid "bbea704f-d689-4766-9d83-de61125b6336")
 	)
-	(label "LED_K5"
-		(at 232.41 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bdfe6cf6-273a-46a1-bc5e-a48eb219dcec")
-	)
 	(label "EXP1"
 		(at 148.59 127 180)
 		(effects
@@ -7294,16 +7304,6 @@
 			(justify right bottom)
 		)
 		(uuid "cb2ec12f-b83f-40cb-9302-1488c37e8af5")
-	)
-	(label "LED_K7"
-		(at 232.41 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf16dc05-8fd1-4e83-a6ac-f16fb5b0885d")
 	)
 	(label "K2"
 		(at 85.09 93.98 0)
