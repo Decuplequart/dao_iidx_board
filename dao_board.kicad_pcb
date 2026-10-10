@@ -8977,15 +8977,15 @@
 			(uuid "07c609b9-33b7-4575-aafe-818717457275")
 		)
 		(embedded_fonts no)
-		(model "a.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.wrl"
+		(model "${KIPRJMOD}/c165948.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -2.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 180)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
