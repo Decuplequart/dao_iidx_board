@@ -4069,6 +4069,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b38242e-57da-4187-a23e-7d6104742beb")
+	)
+	(wire
+		(pts
 			(xy 146.05 118.11) (xy 146.05 121.92)
 		)
 		(stroke
@@ -4339,6 +4349,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 153.67) (xy 48.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4817142b-1a41-4f56-8e4c-1395578ff52f")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 43.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dddd98b-2c62-44ca-8ad0-5b5deaa7c90a")
+	)
+	(wire
+		(pts
 			(xy 223.52 44.45) (xy 223.52 48.26)
 		)
 		(stroke
@@ -4356,6 +4386,26 @@
 			(type default)
 		)
 		(uuid "538f0b69-3604-4a34-867a-31b954a4d16c")
+	)
+	(wire
+		(pts
+			(xy 45.72 153.67) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b0f28f-c9af-4440-ba1f-2893f6aaef73")
+	)
+	(wire
+		(pts
+			(xy 50.8 142.24) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571c18ee-50f6-40b7-ad2a-371adf5d97cd")
 	)
 	(wire
 		(pts
@@ -4666,6 +4716,16 @@
 			(type default)
 		)
 		(uuid "81b61ae7-6a98-4381-bb43-423de34e503c")
+	)
+	(wire
+		(pts
+			(xy 71.12 85.09) (xy 82.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826ca4d6-cb90-46a0-8dbb-abacc0be288d")
 	)
 	(wire
 		(pts
@@ -5337,6 +5397,16 @@
 		)
 		(uuid "2e7916e8-80fb-4507-9cb1-36b4985baa35")
 	)
+	(label "SWDIO"
+		(at 71.12 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b821921-a5f1-44ce-a127-b62f8c11f7d6")
+	)
 	(label "LED_K6"
 		(at 176.53 40.64 90)
 		(effects
@@ -5377,6 +5447,16 @@
 		)
 		(uuid "4593e238-e711-49e4-b49b-ea504b7d0a81")
 	)
+	(label "SWDCLK"
+		(at 71.12 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "535c4fcb-df3f-42ee-bb90-98572b79bed0")
+	)
 	(label "K1"
 		(at 71.12 90.17 0)
 		(effects
@@ -5386,6 +5466,16 @@
 			(justify left bottom)
 		)
 		(uuid "5b0eb028-3d97-4588-9ee9-c2d0ed57ac17")
+	)
+	(label "SWDIO"
+		(at 45.72 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b4aa3ab-1a95-42ff-bf56-2423a0435dda")
 	)
 	(label "RD1"
 		(at 134.62 102.87 180)
@@ -5586,6 +5676,16 @@
 			(justify left bottom)
 		)
 		(uuid "b135ddc2-1a1c-44a7-848d-d02b9392102c")
+	)
+	(label "SWDCLK"
+		(at 48.26 153.67 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4c5f112-cf6f-4adc-83b9-75834b801c2a")
 	)
 	(label "LED_K7"
 		(at 190.5 40.64 90)
@@ -5881,7 +5981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 204.47 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5968,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 238.76 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6073,7 +6173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_fab:MountingHole_M5"
+		(property "Footprint" "Library:MountingHole_M5"
 			(at 17.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6147,7 +6247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 36.83 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6197,6 +6297,92 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
+		(at 45.72 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c4a43b4-b806-499f-a84f-15d69f8aaebd")
+		(property "Reference" "J12"
+			(at 46.99 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SWD"
+			(at 46.99 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a216b81-9268-4f0b-9e0d-60f35b6e492a")
+		)
+		(pin "4"
+			(uuid "df6d9735-335a-4bb0-bfc8-db152e2e5388")
+		)
+		(pin "3"
+			(uuid "565d92e7-60a5-4c50-8952-63aa67e10fe4")
+		)
+		(pin "2"
+			(uuid "471055c4-8b5e-4b75-bf17-6b67bb8e2a68")
+		)
+		(instances
+			(project "dao_board"
+				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 120.65 26.67 90)
 		(unit 1)
 		(body_style 1)
@@ -6227,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 120.65 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6313,7 +6499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 218.44 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6480,7 +6666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_fab:MountingHole_M5"
+		(property "Footprint" "Library:MountingHole_M5"
 			(at 17.78 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -6710,7 +6896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-323"
+		(property "Footprint" "Library:D_SOD-323"
 			(at 36.83 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6792,7 +6978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 231.902 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -6874,7 +7060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_fab:MountingHole_M5"
+		(property "Footprint" "Library:MountingHole_M5"
 			(at 17.78 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -6948,7 +7134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IIDXtorollerparts:KEY-SMD_L4.0-W3.0-LS4.9-1"
+		(property "Footprint" "Library:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 36.83 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7028,7 +7214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
 			(at 257.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7183,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 190.5 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7347,7 +7533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
 			(at 257.81 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7426,7 +7612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:Raytac_MDBT50Q"
+		(property "Footprint" "c5118826:COMM-SMD_MDBT50Q-1MV2-1"
 			(at 102.87 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7765,7 +7951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 147.828 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -7847,7 +8033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 138.938 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -7927,7 +8113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 106.68 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8169,7 +8355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
 			(at 257.81 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8325,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "c165948:USB-C_SMD-TYPE-C-31-M-12_1"
 			(at 33.02 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8450,7 +8636,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 134.62 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8535,7 +8721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0603_1608Metric"
 			(at 96.52 73.9648 0)
 			(hide yes)
 			(show_name no)
@@ -8615,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 162.56 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8737,10 +8923,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "83ed9303-c1c8-440a-8477-d00cffceca12")
+			(uuid "83ed9303-c1c8-440a-8477-d00cffceca13")
 		)
 		(pin "2"
-			(uuid "b68f8b04-50c4-422f-8c47-6bc105f9a352")
+			(uuid "b68f8b04-50c4-422f-8c47-6bc105f9a353")
 		)
 		(instances
 			(project "dao_board"
@@ -8783,7 +8969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 176.53 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9027,7 +9213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
 			(at 257.81 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9104,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "Library:C_0402_1005Metric"
 			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9332,6 +9518,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec4ef21-3752-44c4-91e2-08e230802c9b")
+		(property "Reference" "#PWR07"
+			(at 43.18 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 43.18 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5997f71-23bc-42a2-a83e-8bc4f33cd155")
+		)
+		(instances
+			(project "dao_board"
+				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 21.59 133.35 90)
 		(unit 1)
@@ -9365,7 +9629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 21.59 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9445,7 +9709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 148.59 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9531,7 +9795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 38.1 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -9610,7 +9874,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:C_0402_1005Metric"
 			(at 96.52 68.8848 0)
 			(hide yes)
 			(show_name no)
@@ -9926,7 +10190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 236.22 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10053,6 +10317,84 @@
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1cf2a6a-f55b-4aa5-836e-8ac0d04c8811")
+		(property "Reference" "#PWR019"
+			(at 50.8 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef2963ba-db0d-4eea-af3b-8a9943150bea")
+		)
+		(instances
+			(project "dao_board"
+				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10249,7 +10591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_fab:MountingHole_M5"
+		(property "Footprint" "Library:MountingHole_M5"
 			(at 17.78 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -10325,7 +10667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402_1005Metric"
 			(at 234.442 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -10405,7 +10747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
 			(at 257.81 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10560,7 +10902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
 			(at 257.81 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10672,7 +11014,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a59c78a1-9c97-4186-9ce5-4f35a71dd626")
+			(uuid "a59c78a1-9c97-4186-9ce5-4f35a71dd627")
 		)
 		(instances
 			(project "dao_board"
