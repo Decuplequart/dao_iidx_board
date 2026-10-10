@@ -9074,7 +9074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "c165948:USB-C_SMD-TYPE-C-31-M-12_1"
+		(property "Footprint" "c165948:USB-C_SMD-TYPE-C-31-M-12_1_FIXED"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9472,7 +9472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:Raytac_MDBT50Q"
+		(property "Footprint" "c5118826:Raytac_MDBT50Q_FIXED"
 			(at 110.49 130.81 0)
 			(hide yes)
 			(show_name no)
