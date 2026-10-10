@@ -3,4 +3,5 @@
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/symbols/Library.kicad_sym") (options "") (descr ""))
 	(lib (name "c165948") (type "KiCad") (uri "${KIPRJMOD}/symbols/c165948.kicad_sym") (options "") (descr ""))
 	(lib (name "c5118826") (type "KiCad") (uri "${KIPRJMOD}/symbols/c5118826.kicad_sym") (options "") (descr ""))
+	(lib (name "c2863406") (type "KiCad") (uri "${KIPRJMOD}/symbols/c2863406.kicad_sym") (options "") (descr ""))
 )
