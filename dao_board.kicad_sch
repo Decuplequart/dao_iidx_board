@@ -2949,7 +2949,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -13.97 180)
 					(length 2.54)
 					(name "EH"
@@ -2967,7 +2967,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -11.43 180)
 					(length 2.54)
 					(name "EH"
@@ -2985,7 +2985,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -8.89 180)
 					(length 2.54)
 					(name "EH"
@@ -3003,7 +3003,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 11.43 -6.35 180)
 					(length 2.54)
 					(name "EH"
@@ -3021,7 +3021,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -6.35 13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -3039,7 +3039,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -6.35 11.43 0)
 					(length 2.54)
 					(name "VBUS"
@@ -3057,7 +3057,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 6.35 0)
 					(length 2.54)
 					(name "CC1"
@@ -3075,7 +3075,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 1.27 0)
 					(length 2.54)
 					(name "DP1"
@@ -3093,7 +3093,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 -1.27 0)
 					(length 2.54)
 					(name "DN1"
@@ -3111,7 +3111,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 -6.35 0)
 					(length 2.54)
 					(name "SBU1"
@@ -3129,7 +3129,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -6.35 -13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -3147,7 +3147,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -6.35 -11.43 0)
 					(length 2.54)
 					(name "VBUS"
@@ -3165,7 +3165,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 -8.89 0)
 					(length 2.54)
 					(name "CC2"
@@ -3183,7 +3183,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 -3.81 0)
 					(length 2.54)
 					(name "DP2"
@@ -3201,7 +3201,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 3.81 0)
 					(length 2.54)
 					(name "DN2"
@@ -3219,7 +3219,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -6.35 8.89 0)
 					(length 2.54)
 					(name "SBU2"
