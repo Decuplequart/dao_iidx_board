@@ -9042,7 +9042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "a:USB-C_SMD-TYPE-C-31-M-12_1"
+		(property "Footprint" "c165948:USB-C_SMD-TYPE-C-31-M-12_1"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
