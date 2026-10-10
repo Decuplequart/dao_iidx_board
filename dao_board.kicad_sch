@@ -7929,7 +7929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "170934ce-442e-4c8f-8c09-130da9424310")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 45.72 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -7990,7 +7990,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8266,7 +8266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23384407-84da-484f-9d13-a5e6038b937e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 247.65 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8327,7 +8327,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8344,7 +8344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24bce72a-02c5-4027-af86-85ac8b1dd267")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 191.008 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8406,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8816,7 +8816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d60d454-c5c8-4a47-9042-2ebb12537efc")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 238.76 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8877,7 +8877,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8895,7 +8895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41100e31-9f18-45c0-b265-f0d1d7539d83")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 63.5 63.1825 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8957,7 +8957,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9552,7 +9552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631751f4-280d-4974-9270-c956cb525ac1")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR011"
 			(at 74.93 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9613,7 +9613,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR05")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9714,7 +9714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "694f345c-f532-4041-8a2e-00c9eac59064")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR021"
 			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9775,7 +9775,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR027")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9961,7 +9961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71415ddb-5871-40eb-92ef-cbf6da761b0c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR019"
 			(at 172.72 127 0)
 			(hide yes)
 			(show_name no)
@@ -10022,7 +10022,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR029")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10195,7 +10195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "754d1e6a-c3e2-46eb-a7ba-23a62eb3a7a3")
-		(property "Reference" "C4"
+		(property "Reference" "C6"
 			(at 237.49 96.774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10257,7 +10257,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "C4")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10352,7 +10352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "794f525e-aeec-4fa5-b32b-9be1bcfc7fe6")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 265.43 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10413,7 +10413,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10721,7 +10721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "819f0f41-eb61-46fb-a95c-f24cf6edfcba")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 237.49 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10783,7 +10783,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11055,7 +11055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91b5c9b1-2b99-4f27-833b-e821e393d1be")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 50.8 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11116,7 +11116,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR012")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11134,7 +11134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c7cf4a7-647f-4426-b771-3d9f7cb9da8f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 247.65 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11195,7 +11195,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11473,7 +11473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a71928b7-d3ac-42dc-8832-bf29bb640968")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 241.3 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11533,7 +11533,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11708,7 +11708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec4ef21-3752-44c4-91e2-08e230802c9b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 41.91 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11768,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12503,7 +12503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd01ba46-0d0a-4e73-8801-f190b4303e0e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR022"
 			(at 173.99 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12564,7 +12564,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12736,7 +12736,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48eda2b-78fb-493b-83e2-c8ee3c528a8b")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 191.008 133.858 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12798,7 +12798,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13137,7 +13137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4a04353-21c6-42f3-8c6b-8791da33a907")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 69.85 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13197,7 +13197,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13215,7 +13215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8e527f0-107f-488a-b650-4cd29933bc63")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 275.59 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13276,7 +13276,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13294,7 +13294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8fb42d2-a226-4275-bfa0-e928e047628d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR020"
 			(at 172.72 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13355,7 +13355,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR030")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13608,7 +13608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb467e6d-870b-4104-9518-f30c655f2c4c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 238.76 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13669,7 +13669,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13766,7 +13766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0233fc-08f7-4ac9-9644-22c892b0b8c3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR023"
 			(at 223.52 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13826,7 +13826,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "#PWR019")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13921,7 +13921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78cc543-484c-4336-8801-db9d4ccbe89a")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 39.37 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,7 +13983,7 @@
 		(instances
 			(project "dao_board"
 				(path "/88e2b3bc-f15b-46e0-bc23-bfcd5e24d1de"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
