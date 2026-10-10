@@ -14535,13 +14535,13 @@
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 100.7861 135.8936 270)
+		(at 100.2861 135.8936 270)
 		(layer "B.SilkS")
 		(uuid "480ef944-7bc2-4767-a4d3-3fa1f8957551")
 		(effects
 			(font
 				(size 1.5 1.5)
-				(thickness 0.3)
+				(thickness 0.15)
 				(bold yes)
 			)
 			(justify left bottom mirror)
