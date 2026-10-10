@@ -9505,6 +9505,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5118826"
+			(at 110.49 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "e52bd5d1-f9a8-45e5-b7cf-3ef605845a89")
 		)
