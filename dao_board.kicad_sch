@@ -9948,7 +9948,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a9d7f4c-58ef-4234-9ad3-0e351e84fb54")
 		(property "Reference" "R4"
 			(at 147.32 113.0299 0)
