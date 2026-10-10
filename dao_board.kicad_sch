@@ -4271,10 +4271,6 @@
 		(uuid "605669d6-a902-4eab-8421-4e37f85f23f5")
 	)
 	(no_connect
-		(at 113.03 80.01)
-		(uuid "6d1c503f-e861-4a36-8cb9-d9574ee30105")
-	)
-	(no_connect
 		(at 90.17 163.83)
 		(uuid "72fc4786-5f2a-4e18-a8a0-6782e0c091c2")
 	)
@@ -4341,10 +4337,6 @@
 	(no_connect
 		(at 90.17 166.37)
 		(uuid "ddb0ef35-528c-4352-ae92-10346347dbc8")
-	)
-	(no_connect
-		(at 110.49 80.01)
-		(uuid "e0ee4395-f2d9-42d3-a871-f3c3203e89e3")
 	)
 	(no_connect
 		(at 130.81 158.75)
@@ -5546,6 +5538,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 68.58) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ad87a6-0faa-4472-a2b5-8bf30cd52dd4")
+	)
+	(wire
+		(pts
 			(xy 257.81 93.98) (xy 260.35 93.98)
 		)
 		(stroke
@@ -5773,6 +5775,16 @@
 			(type default)
 		)
 		(uuid "ba9d6b51-0fb3-4574-a478-d6e3f94f38c0")
+	)
+	(wire
+		(pts
+			(xy 110.49 68.58) (xy 110.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0ae2c7-013e-4092-890e-69e223cfec03")
 	)
 	(wire
 		(pts
@@ -6253,6 +6265,16 @@
 			(type default)
 		)
 		(uuid "ffcde4c5-fe8f-4c7b-84e0-8cf7b196d52d")
+	)
+	(label "VBUS_5V"
+		(at 110.49 68.58 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07e22dc0-eedd-4e2d-89c6-deba26ed85e9")
 	)
 	(label "LED_K7"
 		(at 231.14 116.84 180)
@@ -6763,6 +6785,16 @@
 			(justify right bottom)
 		)
 		(uuid "8d06e5b1-28fa-4aba-ba66-f8e4445cbbeb")
+	)
+	(label "VBUS_5V"
+		(at 113.03 68.58 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ebafb94-3688-4896-93a5-60cb8aad9666")
 	)
 	(label "SELECT"
 		(at 142.24 92.71 180)
