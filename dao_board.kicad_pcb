@@ -960,7 +960,7 @@
 	(footprint "Library:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "1f53255c-4edf-4cfa-92d5-cbf513002698")
-		(at 203.5761 157.8936)
+		(at 136.2861 126.3936)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
@@ -2031,7 +2031,7 @@
 	(footprint "Library:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "3aa910a2-7645-4db5-ad27-42a5da080995")
-		(at 199.2861 158.3936)
+		(at 139.7861 126.3936)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -3536,7 +3536,7 @@
 	(footprint "Library:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "4f864af5-acd5-48bf-9ea1-d6d9cf22bead")
-		(at 199.5261 152.2936)
+		(at 143.2861 126.3936)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -6548,7 +6548,7 @@
 	(footprint "Library:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "80451052-9045-4467-8bd0-5eb802f763da")
-		(at 195.4761 152.2936)
+		(at 112.7861 123.3936)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -7679,7 +7679,7 @@
 	(footprint "Library:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "982172d5-f5a1-48c7-9d6a-7e78a0fe657f")
-		(at 195.7861 158.3936)
+		(at 116.7861 123.3936)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -8998,7 +8998,7 @@
 			)
 		)
 		(property "Value" "HX 3x4x2-2P-1.6N"
-			(at 0 -6 90)
+			(at -4 -1 180)
 			(layer "F.Fab")
 			(uuid "d8745b4f-964d-4b32-aa60-d1da4413c6bd")
 			(effects
@@ -10259,7 +10259,7 @@
 	(footprint "Library:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ca009a9d-6d41-4ffe-b4ba-da1ce73f531b")
-		(at 121.8061 130.3936)
+		(at 121.7861 130.3936)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -10961,7 +10961,7 @@
 	(footprint "Library:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "d87c4ce6-377b-4a97-8377-a927fb015e54")
-		(at 203.5761 152.2936)
+		(at 167.2861 111.3936)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
