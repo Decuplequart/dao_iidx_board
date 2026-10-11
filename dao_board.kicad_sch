@@ -7317,7 +7317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 27.94 36.068 90)
 			(hide yes)
 			(show_name no)
@@ -7352,11 +7352,13 @@
 		)
 		(property "LCSC" "C25905"
 			(at 27.94 29.718 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7405,7 +7407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 27.94 47.752 90)
 			(hide yes)
 			(show_name no)
@@ -7440,11 +7442,13 @@
 		)
 		(property "LCSC" "C25905"
 			(at 27.94 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7494,7 +7498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 204.47 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -7529,11 +7533,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 205.74 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7566,7 +7572,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1332ee5d-ab0e-43de-b5cf-5e056fb315e6")
 		(property "Reference" "H1"
@@ -7591,7 +7597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MountingHole_M5"
+		(property "Footprint" "footprints:MountingHole_M5"
 			(at 17.78 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -7665,7 +7671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "footprints:D_SMA"
 			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7700,11 +7706,13 @@
 		)
 		(property "LCSC" "C2480"
 			(at 38.1 79.502 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7910,7 +7918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "footprints:FanPinHeader_1x04_P2.54mm_Vertical"
 			(at 41.91 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7945,11 +7953,13 @@
 		)
 		(property "LCSC" "C5116483"
 			(at 51.562 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8005,7 +8015,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 120.65 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8040,11 +8050,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 121.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8100,7 +8112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 218.44 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8135,11 +8147,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 219.71 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8273,7 +8287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 186.69 101.9048 0)
 			(hide yes)
 			(show_name no)
@@ -8308,11 +8322,13 @@
 		)
 		(property "LCSC" "C1525"
 			(at 189.738 101.854 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8339,7 +8355,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "272b5a36-bed9-4a1b-84bc-7135f2c8f31e")
 		(property "Reference" "H3"
@@ -8364,7 +8380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MountingHole_M5"
+		(property "Footprint" "footprints:MountingHole_M5"
 			(at 17.78 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8516,7 +8532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:D_SOD-323"
+		(property "Footprint" "footprints:D_SOD-323"
 			(at 38.1 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8551,11 +8567,13 @@
 		)
 		(property "LCSC" "C2847422"
 			(at 38.1 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8606,7 +8624,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 229.362 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -8641,11 +8659,13 @@
 		)
 		(property "LCSC" "C11702"
 			(at 229.616 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8672,7 +8692,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "389cd97e-450f-4505-b590-c517e52d5d7f")
 		(property "Reference" "H2"
@@ -8697,7 +8717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MountingHole_M5"
+		(property "Footprint" "footprints:MountingHole_M5"
 			(at 17.78 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -8928,7 +8948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:KEY-SMD_L4.0-W3.0-LS4.9-1"
+		(property "Footprint" "footprints:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 36.83 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8963,11 +8983,13 @@
 		)
 		(property "LCSC" "C49234124"
 			(at 36.83 96.2025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8994,7 +9016,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "42824059-8d7e-4f5d-ab9a-ec685a8f4a5f")
 		(property "Reference" "TP5"
@@ -9017,7 +9039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D2.0mm"
 			(at 257.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9173,7 +9195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "c165948:USB-C_SMD-TYPE-C-31-M-12_1_FIXED"
+		(property "Footprint" "footprints:USB-C_SMD-TYPE-C-31-M-12_1_FIXED"
 			(at 49.53 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -9241,11 +9263,13 @@
 		)
 		(property "LCSC" "C165948"
 			(at 52.07 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A7"
@@ -9337,7 +9361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 190.5 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9372,11 +9396,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 191.77 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9487,7 +9513,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "60dfb4fa-de31-4b8d-926f-cdbb0bc42700")
 		(property "Reference" "TP4"
@@ -9510,7 +9536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D2.0mm"
 			(at 257.81 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9589,7 +9615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "c5118826:Raytac_MDBT50Q_FIXED"
+		(property "Footprint" "footprints:Raytac_MDBT50Q_FIXED"
 			(at 110.49 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9635,11 +9661,13 @@
 		)
 		(property "LCSC" "C5118826"
 			(at 112.6333 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "8"
@@ -9948,7 +9976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 155.448 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -9983,11 +10011,13 @@
 		)
 		(property "LCSC" "C25744"
 			(at 156.21 113.0299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10117,7 +10147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 146.558 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -10152,11 +10182,13 @@
 		)
 		(property "LCSC" "C25744"
 			(at 147.32 113.0299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10206,7 +10238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 106.68 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10241,11 +10273,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 107.95 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10458,7 +10492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 267.97 98.0948 0)
 			(hide yes)
 			(show_name no)
@@ -10493,11 +10527,13 @@
 		)
 		(property "LCSC" "C1525"
 			(at 264.16 103.124 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10524,7 +10560,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "75c45317-7063-4fbd-bb39-8dd026dbe6ef")
 		(property "Reference" "TP2"
@@ -10547,7 +10583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D2.0mm"
 			(at 257.81 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10703,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 134.62 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10738,11 +10774,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 135.89 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10797,7 +10835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:C_0603_1608Metric"
+		(property "Footprint" "footprints:C_0603_1608Metric"
 			(at 104.14 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -10832,11 +10870,13 @@
 		)
 		(property "LCSC" "C19666"
 			(at 103.632 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10886,7 +10926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:C_0603_1608Metric"
+		(property "Footprint" "footprints:C_0603_1608Metric"
 			(at 267.97 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -10921,11 +10961,13 @@
 		)
 		(property "LCSC" "C19666"
 			(at 264.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11054,7 +11096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 162.56 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11089,11 +11131,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 163.83 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11149,7 +11193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 176.53 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11184,11 +11228,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11481,7 +11527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "footprints:PinHeader_2x05_P2.54mm_Vertical"
 			(at 40.64 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11516,11 +11562,13 @@
 		)
 		(property "LCSC" "C492422"
 			(at 41.91 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "6"
@@ -11571,7 +11619,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a0d1caa9-fe0f-4d01-9f11-28fca5ad9f4b")
 		(property "Reference" "TP6"
@@ -11594,7 +11642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D2.0mm"
 			(at 257.81 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12065,7 +12113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 21.59 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12100,11 +12148,13 @@
 		)
 		(property "LCSC" "C158012"
 			(at 26.67 118.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12154,7 +12204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 148.59 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12189,11 +12239,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 149.86 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12327,7 +12379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 38.1 114.808 90)
 			(hide yes)
 			(show_name no)
@@ -12362,11 +12414,13 @@
 		)
 		(property "LCSC" "C17168"
 			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12416,7 +12470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "c2863406:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
 			(at 204.47 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12484,11 +12538,13 @@
 		)
 		(property "LCSC" "C2863406"
 			(at 204.47 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "14"
@@ -12579,7 +12635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 104.14 71.4248 0)
 			(hide yes)
 			(show_name no)
@@ -12614,11 +12670,13 @@
 		)
 		(property "LCSC" "C1525"
 			(at 103.886 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12904,7 +12962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "c2863406:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+		(property "Footprint" "footprints:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
 			(at 204.47 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12972,11 +13030,13 @@
 		)
 		(property "LCSC" "C2863406"
 			(at 204.47 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "14"
@@ -13067,7 +13127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:C_0402_1005Metric"
+		(property "Footprint" "footprints:C_0402_1005Metric"
 			(at 186.69 133.6548 0)
 			(hide yes)
 			(show_name no)
@@ -13102,11 +13162,13 @@
 		)
 		(property "LCSC" "C1525"
 			(at 189.738 133.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13235,7 +13297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "footprints:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 233.68 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13270,11 +13332,13 @@
 		)
 		(property "LCSC" "C144395"
 			(at 234.95 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -13621,7 +13685,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dad35547-3bf0-47eb-9c9c-03288d26097c")
 		(property "Reference" "H4"
@@ -13646,7 +13710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MountingHole_M5"
+		(property "Footprint" "footprints:MountingHole_M5"
 			(at 17.78 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13721,7 +13785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:R_0402_1005Metric"
+		(property "Footprint" "footprints:R_0402_1005Metric"
 			(at 231.902 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -13756,11 +13820,13 @@
 		)
 		(property "LCSC" "C11702"
 			(at 235.204 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13787,7 +13853,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e95ac648-33b3-414f-ac5f-d4635891fd27")
 		(property "Reference" "TP3"
@@ -13810,7 +13876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D2.0mm"
 			(at 257.81 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14100,7 +14166,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f5b0000f-c4e9-45a4-a256-ee11e254c7f2")
 		(property "Reference" "TP1"
@@ -14123,7 +14189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "footprints:TestPoint_Pad_D2.0mm"
 			(at 257.81 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14200,7 +14266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:KEY-SMD_L4.0-W3.0-LS4.9-1"
+		(property "Footprint" "footprints:KEY-SMD_L4.0-W3.0-LS4.9-1"
 			(at 36.83 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -14235,11 +14301,13 @@
 		)
 		(property "LCSC" "C49234124"
 			(at 36.83 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

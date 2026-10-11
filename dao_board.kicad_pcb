@@ -1462,7 +1462,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "c2863406:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+	(footprint "Library:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
 		(layer "F.Cu")
 		(uuid "34d5ffd1-b416-4ca4-892b-6bbedde09787")
 		(at 150.7861 127.0236 180)
@@ -1541,6 +1541,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3c239e0-6e2a-4de8-a179-2f69e4218bb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2863406"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56e25266-461b-48c6-aa27-6e78d9e26d4c")
 			(effects
 				(font
 					(size 1 1)
@@ -1841,7 +1854,7 @@
 			(uuid "e182ab40-0a5e-4efa-8ead-f79556c38df8")
 		)
 		(embedded_fonts no)
-		(model "c2863406.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
+		(model "${KIPRJMOD}/footprints.pretty/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2679,7 +2692,7 @@
 			)
 		)
 	)
-	(footprint "RF_Module:Raytac_MDBT50Q"
+	(footprint "Library:Raytac_MDBT50Q"
 		(layer "F.Cu")
 		(uuid "42f0ebbc-7a82-42a9-8283-c1779f8aa59e")
 		(at 133.0361 108.196056)
@@ -3740,7 +3753,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Diode_SMD:D_SMA"
+	(footprint "Library:D_SMA"
 		(layer "F.Cu")
 		(uuid "51f8866d-11f0-4121-be63-1fa1c02dafd4")
 		(at 139.7861 135.8936)
@@ -6837,7 +6850,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+	(footprint "Library:FanPinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "80f53f99-2d4a-419b-a9fc-ef37ce066738")
 		(at 160.2861 109.4736 90)
@@ -8765,7 +8778,7 @@
 			)
 		)
 	)
-	(footprint "c165948:USB-C_SMD-TYPE-C-31-M-12_1"
+	(footprint "Library:USB-C_SMD-TYPE-C-31-M-12_1"
 		(layer "F.Cu")
 		(uuid "ad3d68f7-467b-4a22-83ea-da8f2626f029")
 		(at 148.7861 104.916056 180)
@@ -8844,6 +8857,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1413290a-64a7-4253-8c40-36c35b36bab3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C165948"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ab58d63-3ae1-445c-ade3-65c727ca2189")
 			(effects
 				(font
 					(size 1 1)
@@ -9313,6 +9339,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C49234124"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c3c7e8a-5136-4189-b4c3-a962dfb7a189")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10336,6 +10375,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C49234124"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9c107d3-37dc-4e82-9d9a-23e88c92a125")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12836,7 +12888,7 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+	(footprint "Library:PinHeader_2x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f98d92dc-509e-4e6d-8dbb-53dbb8149b43")
 		(at 175.2461 122.8936)
@@ -13197,7 +13249,7 @@
 			)
 		)
 	)
-	(footprint "c2863406:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
+	(footprint "Library:TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL"
 		(layer "F.Cu")
 		(uuid "fa3e6ef5-5e40-4241-ae36-338c33b40fa3")
 		(at 159.2861 126.8936)
@@ -13276,6 +13328,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf793997-aabd-4b32-993a-b6e214a0dc3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2863406"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a4732ff-9509-4757-bca2-7bb6bf95413e")
 			(effects
 				(font
 					(size 1 1)
@@ -13576,7 +13641,7 @@
 			(uuid "92ad82d3-47c3-4fef-af3a-e9cfb176c842")
 		)
 		(embedded_fonts no)
-		(model "c2863406.3dshapes/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
+		(model "${KIPRJMOD}/footprints.pretty/TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65.step"
 			(offset
 				(xyz 0 0 0)
 			)
