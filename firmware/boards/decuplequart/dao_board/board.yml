@@ -1,0 +1,6 @@
+board:
+  name: dao_board
+  full_name: dao_board
+  vendor: decuplequart
+  socs:
+    - name: nrf52840
