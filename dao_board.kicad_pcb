@@ -9271,7 +9271,7 @@
 			(uuid "07c609b9-33b7-4575-aafe-818717457275")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/c165948.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.step"
+		(model "${KIPRJMOD}/parts.3dshapes/USB-C_SMD-TYPE-C-31-M-12_1.step"
 			(offset
 				(xyz 0 -2.5 0)
 			)
@@ -9559,7 +9559,7 @@
 			(uuid "e3c37279-13c5-4fdc-bafd-bd925a7eaf1c")
 		)
 		(embedded_fonts no)
-		(model "Documents/KiCad/lib/IIDXtorollerparts.3dshapes/KEY-SMD_L4.0-W3.0-LS4.9-1.wrl"
+		(model "${KIPRJMOD}/parts.3dshapes/KEY-SMD_L4.0-W3.0-LS4.9-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10595,7 +10595,7 @@
 			(uuid "5432a176-f675-46a2-97b2-4234b258cb5f")
 		)
 		(embedded_fonts no)
-		(model "Documents/KiCad/lib/IIDXtorollerparts.3dshapes/KEY-SMD_L4.0-W3.0-LS4.9-1.wrl"
+		(model "${KIPRJMOD}/parts.3dshapes/KEY-SMD_L4.0-W3.0-LS4.9-1.step"
 			(offset
 				(xyz 0 0 0)
 			)
