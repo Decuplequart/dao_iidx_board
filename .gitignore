@@ -9,10 +9,13 @@
 ~*.*
 rcreports/
 
-* Cache
+# JLCPCB_data
+jlcpcb/
+
+# Cache
 fp-info-cache
 
-* System
+# System
 Thumbs.db
 .DS_Store
 desktop.ini
