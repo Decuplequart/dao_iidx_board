@@ -7,7 +7,7 @@
 		(at 0 3 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1b30f676-a724-4275-af26-44185726661b")
+		(uuid "e7dea937-0d60-44e7-aece-1373a7e7b10e")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -3 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "35b8428c-895d-43f1-9579-76c279a52647")
+		(uuid "4cd9e503-15d2-441c-a0c5-f53ededeb072")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "619dee69-d2a7-416b-af1f-e85f849657db")
+		(uuid "09ee5d45-39d6-4420-bf65-327eeacbc95c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "845ced97-81fc-4663-af54-e0df94e570d2")
+		(uuid "757f8280-cc29-449f-97e4-ed82579b4589")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,14 +51,26 @@
 	)
 	(property ki_fp_filters "MountingHole*")
 	(sheetname "/")
-	(sheetfile "iidxcontroller_board.kicad_sch")
-	(attr through_hole exclude_from_bom)
+	(sheetfile "dao_board.kicad_sch")
+	(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_text user "M5"
-		(at 3 0 0)
+		(at 0 0 0)
 		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "350351ca-314c-4a84-ad8f-2828fdef359d")
+		(layer "F.Fab")
+		(uuid "ea735dc5-09be-42a3-aa3e-423d48c5e747")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "M5"
+		(at 5 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "39fd0a2b-3caf-4c94-95f6-e3bf3d14a5b8")
 		(effects
 			(font
 				(size 1 1)
@@ -68,25 +80,13 @@
 			(justify left)
 		)
 	)
-	(fp_text user "M5"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "cfec7551-ff10-4dd3-a809-b2d771ed072f")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-		)
-	)
 	(pad "" thru_hole circle
 		(at 0 0 90)
 		(size 5.3 5.3)
 		(drill 5.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "16e10d01-50dd-46db-9fab-1465ad30f8d7")
+		(uuid "6ace2057-61d0-4d6b-ac3e-5b7429de0655")
 	)
 	(embedded_fonts no)
 )

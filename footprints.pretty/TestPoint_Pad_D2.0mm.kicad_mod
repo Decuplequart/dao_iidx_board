@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.998 0)
 		(layer "F.SilkS")
-		(uuid "23085a67-0b49-47cc-a9ef-d461a2652cfe")
+		(uuid "579b789f-0a80-44b8-9699-4a36faad47b4")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "RD1"
+	(property "Value" "VBUS_5V"
 		(at 0 2.05 0)
-		(layer "F.Fab")
-		(uuid "4de2b7fc-d1ca-4736-aa9b-240c8ebf2db9")
+		(layer "F.SilkS")
+		(uuid "20702431-23f4-4950-9241-76caf9cb9f68")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "05022fcb-2ce1-4c7e-8f5a-25e228d23cf7")
+		(uuid "4ffc5339-65fa-4ac2-bd48-5c2eb23031c9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f7146b66-5e28-4fdc-bd89-9668bb382dc4")
+		(uuid "72f7bb27-e001-4858-bb36-bd90954270ab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,7 +51,8 @@
 	)
 	(property ki_fp_filters "Pin* Test*")
 	(sheetname "/")
-	(sheetfile "iidxcontroller_board.kicad_sch")
+	(sheetfile "dao_board.kicad_sch")
+	(attr exclude_from_pos_files exclude_from_bom dnp)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -62,7 +63,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "36531690-dfc4-4283-ba3c-c519695a8ce7")
+		(uuid "e829347b-625d-425d-86a1-f2ce382e9da6")
 	)
 	(fp_circle
 		(center 0 0)
@@ -73,12 +74,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "46af913a-62f0-431b-990b-bc477d3b9d8b")
+		(uuid "1f2256da-91fe-48ae-a6d6-e5147666c97a")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 0)
 		(layer "F.Fab")
-		(uuid "fa7ba5f1-a2b2-441f-a172-37ca168c26c3")
+		(uuid "f9df8579-f8aa-4106-ba24-34303cd1a7e7")
 		(effects
 			(font
 				(size 1 1)
@@ -90,7 +91,7 @@
 		(at 0 0)
 		(size 2 2)
 		(layers "F.Cu" "F.Mask")
-		(uuid "d5be3548-36b9-43aa-ad13-dd309c5d7afb")
+		(uuid "52df06f3-3225-46e1-b76c-3dbe224a6887")
 	)
 	(embedded_fonts no)
 )
