@@ -1,3 +1,6 @@
+# VSCode
+.vscode/
+
 # KiCad
 *.kicad_prl
 *-backups/
